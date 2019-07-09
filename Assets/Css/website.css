@@ -211,6 +211,17 @@ main #buy-online.content .no-margin-bottom {
 	margin-bottom: 0;
 }
 
+main #buy-online.content .accordion .accordion-heading .heading {
+	font-size: 1.6rem;
+	color: #007bff;
+}
+
+main #buy-online.content .accordion .accordion-heading .heading .heading-text:hover {
+	color: #0056b3;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 main #buy-online.content p.best-choice {
 	margin-top: 0.6rem;
 	line-height: 1.2em;
