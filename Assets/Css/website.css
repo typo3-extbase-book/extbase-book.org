@@ -51,11 +51,9 @@ main .jumbotron p.subheader {
 }
 
 main .promo {
-	height: 200px;
-	overflow: hidden;
-	background: url(../Images/Home/cyber-monday-special.png) no-repeat center center;
-	background-color: black;
-	border-top: 1px solid black;
+	height: 3rem;
+	background-color: #e3e3e3;
+	border-top: 1px solid #cccccc;
 	margin-bottom: 5rem;
 	z-index: 9999;
 }
@@ -88,7 +86,7 @@ main .fa-right-of-text {
 }
 
 main .promo.sticky + .content {
-	padding-top: 280px;
+	padding-top: 110px;
 }
 
 main .content {
