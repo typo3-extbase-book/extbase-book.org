@@ -231,6 +231,22 @@ main #resources.content .list-group .list-group-item .alert {
 	margin-top: 1rem;
 }
 
+main #campaign h2 {
+}
+
+@media screen and (max-width: 767px) {
+	main #campaign h2 {
+		font-size: 1.6rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	main #campaign h2 {
+		font-size: 1.2rem;
+		letter-spacing: -0.04rem;
+	}
+}
+
 main .margin-top {
 	margin-top: 2rem;
 }
@@ -322,6 +338,9 @@ footer p {
 	main .jumbotron p.subheader {
 		font-weight: normal;
 		letter-spacing: 0;
+	}
+	main .promo p {
+		font-size: 0.8rem;
 	}
 }
 
