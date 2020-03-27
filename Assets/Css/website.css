@@ -194,6 +194,21 @@ main .marketing .col-lg-4 div.rounded-circle-with-icon {
 	padding-top: 46px;
 }
 
+main .interview-with-the-author {
+}
+
+@media screen and (max-width: 767px) {
+	main .interview-with-the-author p {
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	main .interview-with-the-author p {
+		font-size: 0.8rem;
+	}
+}
+
 main #about-the-author.content .author .author-image {
 	text-align: center;
 }
